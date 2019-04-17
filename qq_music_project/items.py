@@ -11,6 +11,8 @@ import scrapy
 class QqMusicProjectItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
-    music_info = scrapy.Field()
-    music_track_info = scrapy.Field()
+    id = scrapy.Field()
+    track_info = scrapy.Field()
+    info = scrapy.Field()
+    extras = scrapy.Field()
     pass
