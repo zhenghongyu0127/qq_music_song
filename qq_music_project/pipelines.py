@@ -5,7 +5,7 @@
 # Don't forget to add your pipeline to the ITEM_PIPELINES setting
 # See: http://doc.scrapy.org/en/latest/topics/item-pipeline.html
 import pymongo
-m = pymongo.MongoClient('127.0.0.1')['music_ceshi']['t1']
+m = pymongo.MongoClient('127.0.0.1')['music_ceshi']['t2']
 
 
 class QqMusicProjectPipeline(object):
